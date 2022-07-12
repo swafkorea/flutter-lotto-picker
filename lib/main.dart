@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lotto_picker/constants.dart';
 import 'package:lotto_picker/screens/home.screen.dart';
 
 void main() {
@@ -14,9 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
+        primarySwatch: primarySwatch,
       ),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
