@@ -19,3 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 test
 
 abcd
+
+가나다라
+swaf
